@@ -1,0 +1,1277 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext");
+
+a {
+	text-decoration: none;
+}
+button {
+	background-color: #242424; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	border-radius: 20px;
+	transition: all 330ms ease-in-out;
+}
+
+button:hover {
+	background-color: #bae5e4;
+	color: rgb(26, 26, 26);
+	transform: scale(1.1);
+	transition: all 330ms ease-in-out;
+}
+
+h1 {
+	font-family: "Poppins";
+	font-weight: 400;
+	font-size: clamp(1rem, 4vw, 1.5rem);
+	margin-top: 2rem;
+}
+
+.sachin {
+	margin-top: -14rem;
+	margin-left: -2rem;
+	width: 900px;
+	transition: transform 330ms ease-in-out;
+}
+
+.arrow {
+	margin-top: 1rem;
+	margin-left: 40rem;
+	width: 50px;
+	position: absolute;
+	transform: rotate(220deg);
+}
+
+.arrow-2 {
+	margin-top: -3rem;
+	margin-left: 22.4rem;
+	width: 50px;
+	position: absolute;
+	transform: rotate(220deg);
+}
+
+.arrow-3 {
+	margin-top: -3rem;
+	margin-left: 65rem;
+	width: 50px;
+	position: absolute;
+	transform: rotate(220deg);
+}
+
+.arrow-4 {
+	margin-top: -2.5rem;
+	margin-left: 25rem;
+	width: 50px;
+	position: absolute;
+	transform: rotate(220deg);
+}
+
+.arrow-5 {
+	margin-top: -2.5rem;
+	margin-left: 25rem;
+	width: 50px;
+	position: absolute;
+	transform: rotate(220deg);
+}
+
+.Navbar-Top {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+	row-gap: 10px;
+	gap: 12px;
+	margin-left: auto;
+	margin-top: 2%;
+	transform: scale(1);
+}
+
+.Head-text {
+	font-family: "Poppins";
+	font-weight: 700;
+	padding-left: 1vw;
+	color: #242424;
+	font-size: clamp(2rem, 4vw, 5rem);
+	text-align: left;
+	background-color: #bae5e4;
+	width: 21vw;
+	height: clamp (10vh 50%, 13vh);
+	border-radius: 10px;
+	margin-top: 1.2vh;
+	margin-left: 1.4vw;
+
+	transition: all ease 0.2s;
+}
+
+.Head-text:hover {
+	width: 25vw;
+	color: #5c5c5c;
+	transition: all ease 0.5s;
+}
+
+.Mid-text {
+	font-family: "Poppins";
+	font-weight: 600;
+	padding-left: 1vw;
+	color: #242424;
+	font-size: clamp(2rem, 4vw, 4.8rem);
+	text-align: left;
+	background-color: #f3d0f6;
+	width: 37vw;
+	height: clamp (10vh 50%, 13vh);
+	border-radius: 10px;
+	margin-left: 1.4vw;
+
+	transition: all ease 0.2s;
+}
+
+.Mid-text:hover {
+	width: 40vw;
+	color: #5c5c5c;
+	transition: all ease 0.5s;
+}
+
+.Sub-text {
+	font-family: "Poppins";
+	font-weight: 400;
+	padding-left: 1vw;
+	color: #242424;
+	font-size: clamp(0.5rem, 1.7vw, 2rem);
+	text-align: left;
+	background-color: #f4fcc1;
+	width: 32.6vw;
+	height: 5vh;
+	border-radius: 10px;
+	margin-left: 1.4vw;
+
+	transition: all ease 0.2s;
+}
+
+.Navbar {
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: center;
+	row-gap: 12px;
+}
+
+.LPage {
+	padding-top: 5vh;
+	padding-right: 1.5vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	row-gap: 100px;
+	animation: fadeInAnimation ease 2s;
+}
+
+.Card-Customer {
+	padding-left: 1vw;
+	color: #242424;
+	font-size: 3.5rem;
+	text-align: left;
+	background-color: #bae5e4;
+	width: 50vw;
+	height: 40vh;
+	border-radius: 20px;
+	margin-left: 1.4vw;
+	transition: transform 330ms ease-in-out;
+}
+
+.Card-Customer:hover {
+	transform: scale(1.025);
+	transition: all 330ms ease-in-out;
+
+	.rlines {
+		transform: scale(0.975);
+		margin-top: 4rem;
+	}
+
+	.yellowline {
+		background-color: #bae5e4;
+		transition: all 250ms ease-in-out;
+	}
+
+	.blueline {
+		background-color: #f4fcc1;
+		width: 6vw;
+		height: 7.5vh;
+		border-radius: 20px;
+	}
+
+	.Card-Heading {
+		margin-top: 2rem;
+		font-family: "Poppins";
+		font-weight: 600;
+		color: #242424;
+		font-size: 5rem;
+	}
+
+	.Card-Text {
+		opacity: 0.5;
+	}
+
+	.arrow {
+		filter: invert(0.2);
+		transform: rotate(240deg);
+	}
+}
+.rlines {
+	margin-left: -1.2rem;
+	margin-top: 3.2rem;
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	transition: all 330ms ease-in-out;
+}
+
+.yellowline {
+	background-color: #f4fcc1;
+	width: 18vw;
+	height: 7.5vh;
+	border-radius: 20px;
+	transition: all 250ms ease-in-out;
+}
+
+.yellowline:hover {
+	opacity: 0;
+	transition: all 100ms ease-in-out;
+}
+
+.blueline {
+	background-color: #bae5e4;
+	width: 6vw;
+	height: 7.5vh;
+	border-radius: 20px;
+	transition: all 500ms ease-in-out;
+}
+
+.pinkline {
+	background-color: #f3d0f6;
+	width: 13vw;
+	height: 7.5vh;
+	border-radius: 20px;
+}
+
+.Card-Projects {
+	padding-left: 1vw;
+	color: #242424;
+	font-size: 3.5rem;
+	text-align: left;
+	background-color: #f4fcc1;
+	width: 40vw;
+	height: 50vh;
+	border-radius: 20px;
+	margin-left: 1.4vw;
+	overflow: hidden;
+	transition: transform 330ms ease-in-out;
+}
+
+.Card-Projects:hover {
+	transform: scale(1.025);
+	transition: transform 330ms ease-in-out;
+	.sachin {
+		transform: scale(1.07);
+		transition: transform 330ms ease-in-out;
+	}
+}
+
+.Card-Samples {
+	padding-left: 1vw;
+	color: #242424;
+	font-size: 3.5rem;
+	text-align: left;
+	background-color: #f3d0f6;
+	width: 30vw;
+	height: 50vh;
+	border-radius: 20px;
+	margin-left: 1.4vw;
+	transition: transform 330ms ease-in-out;
+}
+
+.Card-Samples:hover {
+	transform: scale(1.025);
+	transition: transform 330ms ease-in-out;
+	.Card-Heading-3 {
+		transform: scale(1.025);
+		opacity: 0.75;
+		transition: transform 330ms ease-in-out;
+	}
+	.arrow-2 {
+		filter: invert(0.2);
+		transform: rotate(240deg);
+	}
+}
+
+.Card-Heading {
+	margin-top: 4rem;
+	font-family: "Poppins";
+	font-weight: 600;
+	color: #242424;
+	font-size: 3.5rem;
+	transition: all 330ms ease-in-out;
+}
+
+.Card-Text {
+	margin-top: 0.2rem;
+	font-family: "Poppins";
+	font-weight: 300;
+	color: #242424;
+	font-size: 1rem;
+	margin-right: 50px;
+}
+
+.Card-Heading-2 {
+	margin-top: 1.5rem;
+	font-family: "Poppins";
+	font-weight: 600;
+	color: #242424;
+	font-size: clamp(0.5rem, 4vw, 3.5rem);
+}
+
+.Card-Text-2 {
+	margin-top: -1.1rem;
+	font-family: "Poppins";
+	font-weight: 300;
+	color: #242424;
+	font-size: clamp(0.2rem, 0.9vw, 1rem);
+}
+
+.Card-Heading-3 {
+	margin-top: 1.5rem;
+	font-family: "Poppins";
+	font-weight: 600;
+	color: #242424;
+	font-size: clamp(0.5rem, 4vw, 3.5rem);
+	line-height: 1.2;
+	transition: transform 330ms ease-in-out;
+}
+
+.Card-Text-3 {
+	margin-top: 8rem;
+	font-family: "Poppins";
+	font-weight: 300;
+	color: #242424;
+	font-size: clamp(0.2rem, 0.9vw, 1rem);
+}
+
+.Card-Text-4 {
+	margin-top: 2rem;
+	font-family: "Poppins";
+	font-weight: 300;
+	color: #242424;
+	font-size: clamp(0.2rem, 0.9vw, 1rem);
+}
+
+.Card-Container {
+	position: absolute;
+	top: 25%;
+	left: 15%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	row-gap: 100px;
+	animation: fadeInAnimation ease 2s;
+}
+
+.Card-Container-2 {
+	position: absolute;
+	top: 25%;
+	left: 1%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	row-gap: 100px;
+	animation: fadeInAnimation ease 2s;
+}
+
+.Card-Container-3 {
+	position: absolute;
+	top: 25%;
+	left: 1%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	row-gap: 100px;
+}
+
+.Card-Container-4 {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	gap: 12px;
+	margin-left: 18%;
+	animation: fadeInAnimation ease 2s;
+	margin-top: 10%;
+	animation: fadeInAnimation ease 2s;
+}
+
+.Card-Samples-1 {
+	padding-left: 1vw;
+	color: #242424;
+	font-size: 3.5rem;
+	text-align: left;
+	background-color: #bcffc0;
+	width: 30vw;
+	height: 50vh;
+	border-radius: 20px;
+	margin-left: 1.4vw;
+	transition: transform 330ms ease-in-out;
+}
+
+.Card-Samples-1:hover {
+	transform: scale(1.025);
+	transition: transform 330ms ease-in-out;
+	.Card-Heading-3 {
+		transform: scale(1.025);
+		opacity: 0.75;
+		transition: transform 330ms ease-in-out;
+	}
+	.arrow-2 {
+		filter: invert(0.2);
+		transform: rotate(240deg);
+	}
+}
+
+.Card-Samples-2 {
+	padding-left: 1vw;
+	color: #242424;
+	font-size: 3.5rem;
+	text-align: left;
+	background-color: #98d6ff;
+	width: 30vw;
+	height: 50vh;
+	border-radius: 20px;
+	margin-left: 1.4vw;
+	transition: transform 330ms ease-in-out;
+}
+
+.Card-Samples-2:hover {
+	transform: scale(1.025);
+	transition: transform 330ms ease-in-out;
+	.Card-Heading-3 {
+		transform: scale(1.025);
+		opacity: 0.75;
+		transition: transform 330ms ease-in-out;
+	}
+	.arrow-2 {
+		filter: invert(0.2);
+		transform: rotate(240deg);
+	}
+}
+
+.Card-Samples-3 {
+	padding-left: 1vw;
+	color: #ececec;
+	font-size: 3.5rem;
+	text-align: left;
+	background-color: #e4e4e4;
+	width: 30vw;
+	height: 50vh;
+	border-radius: 20px;
+	margin-left: 1.4vw;
+	transition: transform 330ms ease-in-out;
+}
+
+.Card-Samples-3:hover {
+	transform: scale(1.025);
+	transition: transform 330ms ease-in-out;
+	.Card-Heading-3 {
+		transform: scale(1.025);
+		opacity: 0.75;
+		transition: transform 330ms ease-in-out;
+	}
+	.arrow-2 {
+		filter: invert(0.2);
+		transform: rotate(240deg);
+	}
+}
+
+.Card-Samples-4 {
+	padding-left: 1vw;
+	color: #ececec;
+	font-size: 3.5rem;
+	text-align: left;
+	background-color: #f4fcc1;
+	width: 30vw;
+	height: 50vh;
+	border-radius: 20px;
+	margin-left: 1.4vw;
+	transition: transform 330ms ease-in-out;
+}
+
+.Card-Samples-4:hover {
+	transform: scale(1.025);
+	transition: transform 330ms ease-in-out;
+	.Card-Heading-3 {
+		transform: scale(1.025);
+		opacity: 0.75;
+		transition: transform 330ms ease-in-out;
+	}
+	.arrow-2 {
+		filter: invert(0.2);
+		transform: rotate(240deg);
+	}
+}
+
+.Card-Samples-5 {
+	padding-left: 1vw;
+	color: #ececec;
+	font-size: 3.5rem;
+	text-align: left;
+	background-color: #f4fcc1;
+	width: 60vw;
+	height: 40vh;
+	border-radius: 20px;
+	margin-left: 1.4vw;
+	transition: transform 330ms ease-in-out;
+}
+
+.Card-Samples-5:hover {
+	transform: scale(1.025);
+	transition: transform 330ms ease-in-out;
+	.Card-Heading-3 {
+		transform: scale(0.985);
+		opacity: 0.75;
+		transition: transform 330ms ease-in-out;
+	}
+	.arrow-2 {
+		filter: invert(0.2);
+		transform: rotate(240deg);
+	}
+}
+
+.Card-Samples-6 {
+	padding-left: 1vw;
+	color: #ececec;
+	font-size: 3.5rem;
+	text-align: left;
+	background-color: hsl(140, 100%, 64%);
+	width: 30vw;
+	height: 50vh;
+	border-radius: 20px;
+	margin-left: 1.4vw;
+	transition: transform 330ms ease-in-out;
+}
+
+.Card-Samples-6:hover {
+	transform: scale(1.025);
+	transition: transform 330ms ease-in-out;
+	.Card-Heading-3 {
+		transform: scale(1.025);
+		opacity: 0.75;
+		transition: transform 330ms ease-in-out;
+	}
+	.arrow-2 {
+		filter: invert(0.2);
+		transform: rotate(240deg);
+	}
+}
+
+.Card-Samples-7 {
+	padding-left: 1vw;
+	color: #ececec;
+	font-size: 3.5rem;
+	text-align: left;
+	background-color: #7bcaff;
+	width: 30vw;
+	height: 50vh;
+	border-radius: 20px;
+	margin-left: 1.4vw;
+	transition: transform 330ms ease-in-out;
+}
+
+.Card-Samples-7:hover {
+	transform: scale(1.025);
+	transition: transform 330ms ease-in-out;
+	.Card-Heading-3 {
+		transform: scale(1.025);
+		opacity: 0.75;
+		transition: transform 330ms ease-in-out;
+	}
+	.arrow-2 {
+		filter: invert(0.2);
+		transform: rotate(240deg);
+	}
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 767px) {
+	/* CSS rules for small screens */
+
+	.LPage {
+		padding-top: 1.2vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		row-gap: 10px;
+		transform: scale(0.98);
+		animation: fadeInAnimation ease 2s;
+	}
+
+	.Navbar {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		row-gap: 12px;
+	}
+
+	.Navbar-Top {
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: center;
+		gap: 12px;
+		margin-left: auto;
+		transform: scale(0.5);
+	}
+
+	.rlines {
+		visibility: hidden;
+	}
+
+	button {
+		background-color: #272727;
+	}
+
+	.Head-text {
+		font-family: "Poppins";
+		font-weight: 700;
+		padding-left: 1vw;
+		color: #242424;
+		font-size: 1.82rem;
+		text-align: left;
+		background-color: #bae5e4;
+		width: 40vw;
+		height: clamp (10vh 50%, 13vh);
+		border-radius: 10px;
+		margin-top: 2vh;
+		margin-left: 1.4vw;
+
+		transition: all ease 0.2s;
+	}
+
+	.Head-text:hover {
+		transform: scale(1.1);
+		width: 41vw;
+		color: #5c5c5c;
+		transition: all ease 0.5s;
+	}
+
+	.Mid-text {
+		font-family: "Poppins";
+		font-weight: 600;
+		padding-left: 1vw;
+		color: #242424;
+		font-size: 1.82rem;
+		text-align: left;
+		background-color: #f3d0f6;
+		width: 70vw;
+		height: clamp (10vh 50%, 13vh);
+		border-radius: 10px;
+		margin-left: 1.4vw;
+
+		transition: all ease 0.2s;
+	}
+
+	.Mid-text:hover {
+		transform: scale(1.1);
+		width: 71vw;
+		color: #5c5c5c;
+		transition: all ease 0.5s;
+	}
+
+	.Sub-text {
+		font-family: "Poppins";
+		font-weight: 400;
+		padding-left: 1vw;
+		color: #242424;
+		font-size: 0.6rem;
+		text-align: left;
+		background-color: #f4fcc1;
+		width: 38vw;
+		height: 1.8vh;
+		border-radius: 10px;
+		margin-left: 1.4vw;
+		transition: all ease 0.2s;
+	}
+
+	.Card-Customer {
+		padding-left: 1vw;
+		color: #242424;
+		font-size: 3.5rem;
+		text-align: left;
+		background-color: #bae5e4;
+		width: 21rem;
+		height: 13rem;
+		border-radius: 20px;
+
+		transition: transform 330ms ease-in-out;
+	}
+
+	.Card-Customer:hover {
+		transform: scale(1.025);
+		transition: all 330ms ease-in-out;
+
+		.Card-Heading {
+			margin-top: 0rem;
+			font-family: "Poppins";
+			font-weight: 600;
+			color: #242424;
+			font-size: 2.5rem;
+		}
+
+		.Card-Text {
+			opacity: 0.5;
+		}
+
+		.arrow {
+			filter: invert(0.2);
+			transform: rotate(240deg);
+		}
+	}
+	.rlines {
+		margin-left: -1.2rem;
+		margin-top: 3.2rem;
+		display: flex;
+		flex-direction: row;
+		gap: 20px;
+		transition: all 330ms ease-in-out;
+	}
+
+	.yellowline {
+		background-color: #f4fcc1;
+		width: 18vw;
+		height: 7.5vh;
+		border-radius: 20px;
+		transition: all 250ms ease-in-out;
+	}
+
+	.yellowline:hover {
+		opacity: 0;
+		transition: all 100ms ease-in-out;
+	}
+
+	.blueline {
+		background-color: #bae5e4;
+		width: 6vw;
+		height: 7.5vh;
+		border-radius: 20px;
+		transition: all 500ms ease-in-out;
+	}
+
+	.pinkline {
+		background-color: #f3d0f6;
+		width: 13vw;
+		height: 7.5vh;
+		border-radius: 20px;
+	}
+
+	.Card-Projects {
+		padding-left: 1vw;
+		color: #242424;
+		font-size: 3.5rem;
+		text-align: left;
+		background-color: #f4fcc1;
+		width: 21rem;
+		height: 14rem;
+		border-radius: 20px;
+
+		overflow: hidden;
+		transition: transform 330ms ease-in-out;
+	}
+
+	.Card-Projects:hover {
+		transform: scale(1.025);
+		transition: transform 330ms ease-in-out;
+		.sachin {
+			transform: scale(1.07);
+			transition: transform 330ms ease-in-out;
+		}
+	}
+
+	.Card-Samples {
+		padding-left: 1vw;
+		color: #242424;
+		font-size: 3.5rem;
+		text-align: left;
+		background-color: #f3d0f6;
+		width: 21rem;
+		height: 13rem;
+		border-radius: 20px;
+		margin-bottom: 20px;
+		transition: transform 330ms ease-in-out;
+	}
+
+	.Card-Samples:hover {
+		transform: scale(1.025);
+		transition: transform 330ms ease-in-out;
+		.Card-Heading-3 {
+			transform: scale(1.025);
+			opacity: 0.75;
+			transition: transform 330ms ease-in-out;
+		}
+		.arrow-2 {
+			filter: invert(0.2);
+			transform: rotate(240deg);
+		}
+	}
+
+	.sachin {
+		margin-top: -12rem;
+		margin-left: -2rem;
+		width: 550px;
+		transition: transform 330ms ease-in-out;
+	}
+
+	h1 {
+		margin-top: 1.5rem;
+		margin-left: 0.5rem;
+		font-size: 0.8rem;
+	}
+
+	.Card-Heading {
+		margin-top: -0.5rem;
+		margin-left: 0.5rem;
+		font-family: "Poppins";
+		font-weight: 600;
+		color: #242424;
+		font-size: 2.5rem;
+		transition: all 330ms ease-in-out;
+	}
+
+	.Card-Text {
+		margin-top: 0.2rem;
+		margin-left: 0.5rem;
+		font-family: "Poppins";
+		font-weight: 300;
+		color: #242424;
+		font-size: 0.6rem;
+		margin-right: 0.1rem;
+	}
+
+	.Card-Heading-2 {
+		margin-left: 0.5rem;
+		margin-top: 1rem;
+		font-family: "Poppins";
+		font-weight: 600;
+		color: #242424;
+		font-size: 2.5rem;
+	}
+
+	.Card-Text-2 {
+		margin-left: 0.5rem;
+		margin-top: -0.8rem;
+		font-family: "Poppins";
+		font-weight: 300;
+		color: #242424;
+		font-size: 0.8rem;
+	}
+
+	.Card-Heading-3 {
+		margin-left: 0.5rem;
+		margin-top: 1.5rem;
+		font-family: "Poppins";
+		font-weight: 600;
+		color: #242424;
+		font-size: 2.1rem;
+		line-height: 1.2;
+		transition: transform 330ms ease-in-out;
+	}
+
+	.Card-Text-3 {
+		margin-top: 8rem;
+		font-family: "Poppins";
+		font-weight: 300;
+		color: #242424;
+		font-size: clamp(0.2rem, 0.9vw, 1rem);
+	}
+
+	.Card-Text-4 {
+		margin-top: 2rem;
+		font-family: "Poppins";
+		font-weight: 300;
+		color: #242424;
+		font-size: clamp(0.2rem, 0.9vw, 1rem);
+	}
+
+	.App-2 {
+		height: 150vh;
+		overflow-y: hidden;
+	}
+
+	.App-3 {
+		height: 150vh;
+		overflow-y: hidden;
+	}
+
+	.App-4 {
+		height: 150vh;
+		overflow-y: hidden;
+	}
+
+	.Card-Container {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+		gap: 12px;
+		margin-left: auto;
+		animation: fadeInAnimation ease 2s;
+		top: 15%;
+	}
+
+	.Card-Container-2 {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+		gap: 12px;
+		margin-left: 15%;
+		animation: fadeInAnimation ease 2s;
+		top: 15%;
+	}
+
+	.Card-Container-4 {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+		gap: 12px;
+		margin-left: 7%;
+		animation: fadeInAnimation ease 2s;
+		top: 15%;
+
+		.Card-Heading-3 {
+			font-size: 2rem;
+		}
+
+		.Card-Text-4 {
+			padding-left: 10px;
+			padding-right: 10px;
+			font-size: 0.8rem;
+		}
+	}
+
+	.Card-Samples-1 {
+		padding-left: 1vw;
+		color: #242424;
+		font-size: 3.5rem;
+		text-align: left;
+		background-color: #bae5e4;
+		width: 15rem;
+		height: 12rem;
+		border-radius: 20px;
+		margin-left: 1.4vw;
+		transition: transform 330ms ease-in-out;
+		.arrow-2 {
+			visibility: hidden;
+		}
+		.Card-Text-3 {
+			visibility: hidden;
+		}
+	}
+
+	.Card-Samples-1:hover {
+		transform: scale(1.025);
+		transition: transform 330ms ease-in-out;
+		.Card-Heading-3 {
+			transform: scale(1.025);
+			opacity: 0.75;
+			transition: transform 330ms ease-in-out;
+		}
+		.arrow-2 {
+			filter: invert(0.2);
+			transform: rotate(240deg);
+		}
+	}
+
+	.Card-Samples-2 {
+		padding-left: 1vw;
+		color: #242424;
+		font-size: 3.5rem;
+		text-align: left;
+		background-color: #98d6ff;
+		width: 15rem;
+		height: 12rem;
+		border-radius: 20px;
+		margin-left: 1.4vw;
+		transition: transform 330ms ease-in-out;
+		.arrow-2 {
+			visibility: hidden;
+		}
+		.Card-Text-3 {
+			visibility: hidden;
+		}
+	}
+
+	.Card-Samples-2:hover {
+		transform: scale(1.025);
+		transition: transform 330ms ease-in-out;
+		.Card-Heading-3 {
+			transform: scale(1.025);
+			opacity: 0.75;
+			transition: transform 330ms ease-in-out;
+		}
+		.arrow-2 {
+			filter: invert(0.2);
+			transform: rotate(240deg);
+		}
+	}
+
+	.Card-Samples-3 {
+		padding-left: 1vw;
+		color: #242424;
+		font-size: 3.5rem;
+		text-align: left;
+		background-color: #e4e4e4;
+		width: 15rem;
+		height: 12rem;
+		border-radius: 20px;
+		margin-left: 1.4vw;
+		transition: transform 330ms ease-in-out;
+	}
+
+	.Card-Samples-3:hover {
+		transform: scale(1.025);
+		transition: transform 330ms ease-in-out;
+		.Card-Heading-3 {
+			transform: scale(1.025);
+			opacity: 0.75;
+			transition: transform 330ms ease-in-out;
+		}
+		.arrow-2 {
+			filter: invert(0.2);
+			transform: rotate(240deg);
+		}
+	}
+
+	.Card-Samples-4 {
+		padding-left: 1vw;
+		color: #242424;
+		font-size: 3.5rem;
+		text-align: left;
+		background-color: #f4fcc1;
+		width: 15rem;
+		height: 12rem;
+		border-radius: 20px;
+		margin-left: 1.4vw;
+		transition: transform 330ms ease-in-out;
+	}
+
+	.Card-Samples-4:hover {
+		transform: scale(1.025);
+		transition: transform 330ms ease-in-out;
+		.Card-Heading-3 {
+			transform: scale(1.025);
+			opacity: 0.75;
+			transition: transform 330ms ease-in-out;
+		}
+		.arrow-2 {
+			filter: invert(0.2);
+			transform: rotate(240deg);
+		}
+	}
+
+	.Card-Samples-5 {
+		padding-left: 1vw;
+		color: #ececec;
+		font-size: 3.5rem;
+		text-align: left;
+		background-color: #f4fcc1;
+		width: 80vw;
+		height: 60vh;
+		border-radius: 20px;
+		margin-left: 1.4vw;
+		transition: transform 330ms ease-in-out;
+	}
+
+	.Card-Samples-5:hover {
+		transform: scale(1.025);
+		transition: transform 330ms ease-in-out;
+		.Card-Heading-3 {
+			transform: scale(0.985);
+			opacity: 0.75;
+			transition: transform 330ms ease-in-out;
+		}
+		.arrow-2 {
+			filter: invert(0.2);
+			transform: rotate(240deg);
+		}
+	}
+
+	.Card-Samples-6 {
+		padding-left: 1vw;
+		color: #242424;
+		font-size: 3.5rem;
+		text-align: left;
+		background-color: hsl(140, 100%, 64%);
+		width: 15rem;
+		height: 14rem;
+		border-radius: 20px;
+		margin-left: 1.4vw;
+		transition: transform 330ms ease-in-out;
+		.arrow-2 {
+			visibility: hidden;
+		}
+		.Card-Text-3 {
+			visibility: hidden;
+		}
+	}
+
+	.Card-Samples-6:hover {
+		transform: scale(1.025);
+		transition: transform 330ms ease-in-out;
+		.Card-Heading-3 {
+			transform: scale(1.025);
+			opacity: 0.75;
+			transition: transform 330ms ease-in-out;
+		}
+	}
+	.Card-Samples-7 {
+		padding-left: 1vw;
+		color: #242424;
+		font-size: 3.5rem;
+		text-align: left;
+		background-color: #7bcaff;
+		width: 15rem;
+		height: 14rem;
+		border-radius: 20px;
+		margin-left: 1.4vw;
+		.arrow-2 {
+			visibility: hidden;
+		}
+		.Card-Text-3 {
+			visibility: hidden;
+		}
+		transition: transform 330ms ease-in-out;
+	}
+
+	.Card-Samples-7:hover {
+		transform: scale(1.025);
+		transition: transform 330ms ease-in-out;
+		.Card-Heading-3 {
+			transform: scale(1.025);
+			opacity: 0.75;
+			transition: transform 330ms ease-in-out;
+		}
+		.arrow-2 {
+			filter: invert(0.2);
+			transform: rotate(240deg);
+		}
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	/* CSS rules for large screens */
+}
+
+@media screen and (min-width: 992px) and (max-width: 1366px) {
+	/*
+    .LPage {
+		transform: scale(0.9);
+		position: relative;
+		left: -4rem;
+		top: -1.2rem;
+	}
+     */
+
+	.rlines {
+		margin-left: -0.7rem;
+		margin-top: 2.2rem;
+		display: flex;
+		flex-direction: row;
+		gap: 20px;
+	}
+
+	.sachin {
+		margin-top: -14rem;
+		margin-left: -4rem;
+		width: 750px;
+	}
+
+	.arrow {
+		margin-top: 1rem;
+		margin-left: 29.5rem;
+		width: 40px;
+		position: absolute;
+		transform: rotate(220deg);
+	}
+	/*
+	.arrow-2 {
+		margin-top: -6.5rem;
+		margin-left: 15.5rem;
+		width: 40px;
+		position: absolute;
+		transform: rotate(220deg);
+	}
+	
+	*/
+	.arrow-2 {
+		margin-top: -3.5rem;
+		margin-left: 13.5rem;
+		width: 50px;
+		position: absolute;
+		transform: rotate(220deg);
+	}
+
+	.arrow-4 {
+		margin-top: -3.5rem;
+		margin-left: 17rem;
+		width: 50px;
+		position: absolute;
+		transform: rotate(220deg);
+	}
+
+	.arrow-5 {
+		margin-top: -3.5rem;
+		margin-left: 17rem;
+		width: 50px;
+		position: absolute;
+		transform: rotate(220deg);
+	}
+
+	.Card-Heading {
+		margin-top: 4rem;
+		font-family: "Poppins";
+		font-weight: 600;
+		color: #242424;
+		font-size: 3rem;
+	}
+
+	.Card-Text {
+		margin-top: 0.2rem;
+		font-family: "Poppins";
+		font-weight: 300;
+		color: #242424;
+		font-size: 0.7rem;
+	}
+
+	.Card-Heading-3 {
+		margin-top: 1.5rem;
+		font-family: "Poppins";
+		font-weight: 600;
+		color: #242424;
+		font-size: 2.7rem;
+		line-height: 1.2;
+		transition: transform 330ms ease-in-out;
+	}
+}
+
+/* Animations */
+
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
