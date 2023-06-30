@@ -1,5 +1,6 @@
 import React from "react";
 import "../Homepage.css";
+import "./css/LBody.css";
 
 function Navbar() {
 	return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "../Homepage.css";
+import "./css/LBody.css";
 import sachin from "./images/sachin.png";
 import arrow from "./images/arrow-down.png";
 
@@ -8,22 +8,25 @@ function Navbar() {
 		<div class="LPage">
 			<div class="Card-Customer">
 				<img className="arrow" src={arrow} border="0" />
-				<h1>Happy Customers</h1>
-				<div className="Card-Heading">250+</div>
-				<div className="Card-Text">
-					With my unwavering expertise and commitment to excellence, I
-					continuously strive to deliver exceptional outputs that
-					consistently surpass the expectations of over 250 satisfied
-					customers. Through meticulous attention to detail and a deep
-					understanding of their unique needs, I ensure that each
-					project is a testament to my dedication and drive for
-					excellence.
+				<div className="Card-Text-Body">
+					<h1>Happy Customers</h1>
+					<div className="Card-Heading">250+</div>
+					<div className="Card-Text">
+						With my unwavering expertise and commitment to
+						excellence, I continuously strive to deliver exceptional
+						outputs that consistently surpass the expectations of
+						over 250 satisfied customers. Through meticulous
+						attention to detail and a deep understanding of their
+						unique needs, I ensure that each project is a testament
+						to my dedication and drive for excellence.
+					</div>
 				</div>
+				{/*
 				<div className="rlines">
 					<div className="yellowline"></div>
 					<div className="blueline"></div>
 					<div className="pinkline"></div>
-				</div>
+				</div>*/}
 			</div>
 			<div class="Card-Projects">
 				<div className="Card-Heading-2">300+</div>
