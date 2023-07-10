@@ -85,7 +85,7 @@
 	color: #242424;
 	font-size: clamp(0.5rem, 1.7vw, 2rem);
 	text-align: left;
-	background-color: #f4fcc1;
+	background-color: #fcdac1;
 	width: 32.6vw;
 	height: clamp(4svh, 50%, 50px);
 	border-radius: 10px;
@@ -135,7 +135,7 @@
 	color: #242424;
 	font-size: 3.5rem;
 	text-align: left;
-	background-color: #f4fcc1;
+	background-color: #fcdac1;
 	width: min(40vw, 800px);
 	height: min(50vh, 500px);
 	border-radius: 20px;
@@ -313,7 +313,7 @@
 		color: #242424;
 		font-size: 0.6rem;
 		text-align: left;
-		background-color: #f4fcc1;
+		background-color: #fcdac1;
 		width: min(38svh, 185px);
 		height: max(1.8svh, 15px);
 		border-radius: 10px;
@@ -365,7 +365,7 @@
 	}
 
 	.yellowline {
-		background-color: #f4fcc1;
+		background-color: #fcdac1;
 		width: 18vw;
 		height: 7.5vh;
 		border-radius: 20px;
@@ -397,7 +397,7 @@
 		color: #242424;
 		font-size: 3.5rem;
 		text-align: left;
-		background-color: #f4fcc1;
+		background-color: #fcdac1;
 		width: 21rem;
 		height: 14rem;
 		border-radius: 20px;
