@@ -476,6 +476,7 @@
 	.Card-Heading-2 {
 		margin-left: 0.5rem;
 		margin-top: 1rem;
+		margin-bottom: 5px;
 		font-family: "Poppins";
 		font-weight: 600;
 		color: #242424;
