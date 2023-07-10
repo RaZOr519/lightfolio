@@ -413,7 +413,7 @@ h1 {
 
 	.Card-Container-2 {
 		margin: auto;
-		height: 80vh;
+		height: 90vh;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -570,7 +570,7 @@ h1 {
 		text-align: left;
 		background-color: #f4fcc1;
 		width: 80vw;
-		height: min(40vh, 500px);
+		height: 360px;
 		border-radius: 20px;
 		margin-left: 1.4vw;
 		transition: transform 330ms ease-in-out;

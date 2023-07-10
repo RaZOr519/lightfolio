@@ -18,8 +18,8 @@
 
 .arrow-2 {
 	position: relative;
-	top: -14%;
-	left: 85%;
+	top: -22%;
+	left: 88%;
 	width: 50px;
 	transform: rotate(220deg);
 }
@@ -202,7 +202,7 @@
 
 @media screen and (max-width: 1500px) and (min-width: 1200px) {
 	.Card-Heading {
-		margin-top: 6rem;
+		margin-top: 4.5rem;
 		font-family: "Poppins";
 		font-weight: 600;
 		color: #242424;

@@ -1,5 +1,4 @@
 import React from "react";
-import arrow from "../components/images/arrow-down.png";
 import "../Homepage.css";
 
 function Services() {
