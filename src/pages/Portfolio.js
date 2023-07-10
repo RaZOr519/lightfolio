@@ -14,8 +14,6 @@ function Portfolio() {
 						<div className="Card-Heading-3">
 							3D Portfolio <br /> at Behance
 							<br />
-							<br />
-							<br />
 						</div>
 					</a>
 					<div className="Card-Text-3">Behance</div>
@@ -30,9 +28,7 @@ function Portfolio() {
 				<div class="Card-Samples-3">
 					<a href="https://github.com/RaZOr519" target="_blank">
 						<div className="Card-Heading-3">
-							Coding Portfolio <br /> at GitHub
-							<br />
-							<br />
+							Portfolio <br /> at GitHub
 							<br />
 						</div>
 					</a>

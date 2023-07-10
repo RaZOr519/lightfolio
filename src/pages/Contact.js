@@ -15,9 +15,7 @@ function Contact() {
 						</div>
 					</a>
 					<div className="Card-Text-3">WhatsApp</div>
-					<a href="https://wa.me/+94702831414" target="_blank">
-						<img className="arrow-2" src={arrow} border="0" />
-					</a>
+					<a href="https://wa.me/+94702831414" target="_blank"></a>
 				</div>
 
 				<div class="Card-Samples-7">
@@ -29,9 +27,7 @@ function Contact() {
 						</div>
 					</a>
 					<div className="Card-Text-3">Telegram</div>
-					<a href="https://t.me/rzr519" target="_blank">
-						<img className="arrow-2" src={arrow} border="0" />
-					</a>
+					<a href="https://t.me/rzr519" target="_blank"></a>
 				</div>
 			</div>
 		</div>

@@ -108,7 +108,7 @@ h1 {
 }
 
 .Card-Text-3 {
-	margin-top: 8rem;
+	margin-top: 11rem;
 	font-family: "Poppins";
 	font-weight: 300;
 	color: #242424;
@@ -283,7 +283,7 @@ h1 {
 	text-align: left;
 	background-color: #f4fcc1;
 	width: 60vw;
-	height: 40vh;
+	height: min(40vh, 500px);
 	border-radius: 20px;
 	margin-left: 1.4vw;
 	transition: transform 330ms ease-in-out;
@@ -357,10 +357,37 @@ h1 {
 	}
 }
 
-/* Media Queries */
+/* Minimize Queries New*/
+@media screen and (max-width: 1600px) and (min-width: 1200px) {
+	.arrow-4 {
+		visibility: hidden;
+	}
 
-@media screen and (max-width: 767px) {
-	/* CSS rules for small screens */
+	.arrow-5 {
+		visibility: hidden;
+	}
+
+	.Card-Text-3 {
+		margin-top: 12rem;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.arrow-4 {
+		visibility: hidden;
+	}
+	.arrow-5 {
+		visibility: hidden;
+	}
+	.Card-Container {
+		display: flex;
+		flex-direction: column;
+		gap: 12px;
+		margin: auto;
+		animation: fadeInAnimation ease 1s;
+		top: 15%;
+	}
+
 	.Card-Text-4 {
 		margin-top: 2rem;
 		font-family: "Poppins";
@@ -384,26 +411,15 @@ h1 {
 		overflow-y: hidden;
 	}
 
-	.Card-Container {
-		border: 2px red;
-		display: flex;
-		flex-direction: column;
-
-		gap: 12px;
-		margin: auto;
-		animation: fadeInAnimation ease 1s;
-		top: 15%;
-	}
-
 	.Card-Container-2 {
+		margin: auto;
+		height: 80vh;
 		display: flex;
 		flex-direction: column;
-		align-items: flex-start;
 		justify-content: center;
-		gap: 12px;
-		margin-left: 15%;
+		row-gap: 10px;
+		align-items: center;
 		animation: fadeInAnimation ease 1s;
-		top: 15%;
 	}
 
 	.Card-Container-4 {
@@ -554,7 +570,7 @@ h1 {
 		text-align: left;
 		background-color: #f4fcc1;
 		width: 80vw;
-		height: 40vh;
+		height: min(40vh, 500px);
 		border-radius: 20px;
 		margin-left: 1.4vw;
 		transition: transform 330ms ease-in-out;
@@ -635,10 +651,7 @@ h1 {
 		}
 	}
 }
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-	/* CSS rules for large screens */
-}
+/* Media Queries */
 
 @media screen and (min-width: 992px) and (max-width: 1366px) {
 	/*
@@ -650,23 +663,6 @@ h1 {
 	}
      */
 
-	.rlines {
-		margin-left: -0.7rem;
-		margin-top: 2.2rem;
-		display: flex;
-		flex-direction: row;
-		gap: 20px;
-	}
-
-	.sachin {
-		margin-top: -14rem;
-		margin-left: -4rem;
-		width: 750px;
-	}
-
-	.arrow-2 {
-		visibility: hidden;
-	}
 	/*
 	.arrow-2 {
 		margin-top: -6.5rem;
@@ -686,14 +682,6 @@ h1 {
 	}
 
 	.arrow-4 {
-		margin-top: -3.5rem;
-		margin-left: 17rem;
-		width: 50px;
-		position: absolute;
-		transform: rotate(220deg);
-	}
-
-	.arrow-5 {
 		margin-top: -3.5rem;
 		margin-left: 17rem;
 		width: 50px;
@@ -722,7 +710,7 @@ h1 {
 		font-family: "Poppins";
 		font-weight: 600;
 		color: #242424;
-		font-size: 2.7rem;
+		font-size: 3.2rem;
 		line-height: 1.2;
 		transition: transform 330ms ease-in-out;
 	}
@@ -861,14 +849,6 @@ h1 {
 	}
 
 	.arrow-4 {
-		margin-top: -3.5rem;
-		margin-left: 17rem;
-		width: 50px;
-		position: absolute;
-		transform: rotate(220deg);
-	}
-
-	.arrow-5 {
 		margin-top: -3.5rem;
 		margin-left: 17rem;
 		width: 50px;

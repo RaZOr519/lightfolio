@@ -98,8 +98,8 @@
 	font-size: 3.5rem;
 	text-align: left;
 	background-color: #bae5e4;
-	width: 50svh;
-	height: 50svh;
+	width: min(50vw, 400px);
+	height: min(50vh, 500px);
 	border-radius: 20px;
 	margin-left: 1.4vw;
 	overflow: hidden;
@@ -110,25 +110,8 @@
 	transform: scale(1.025);
 	transition: all 330ms ease-in-out;
 
-	.rlines {
-		transform: scale(0.975);
-		margin-top: 4rem;
-	}
-
-	.yellowline {
-		background-color: #bae5e4;
-		transition: all 250ms ease-in-out;
-	}
-
-	.blueline {
-		background-color: #f4fcc1;
-		width: 6vw;
-		height: 7.5vh;
-		border-radius: 20px;
-	}
-
 	.Card-Heading {
-		margin-top: 2rem;
+		margin-top: 8rem;
 		font-family: "Poppins";
 		font-weight: 600;
 		color: #242424;
@@ -144,42 +127,6 @@
 		transform: rotate(240deg);
 	}
 }
-.rlines {
-	margin-left: -1.2rem;
-	margin-top: 3.2rem;
-	display: flex;
-	flex-direction: row;
-	gap: 20px;
-	transition: all 330ms ease-in-out;
-}
-
-.yellowline {
-	background-color: #f4fcc1;
-	width: 18vw;
-	height: 7.5vh;
-	border-radius: 20px;
-	transition: all 250ms ease-in-out;
-}
-
-.yellowline:hover {
-	opacity: 0;
-	transition: all 100ms ease-in-out;
-}
-
-.blueline {
-	background-color: #bae5e4;
-	width: 6vw;
-	height: 7.5vh;
-	border-radius: 20px;
-	transition: all 500ms ease-in-out;
-}
-
-.pinkline {
-	background-color: #f3d0f6;
-	width: 13vw;
-	height: 7.5vh;
-	border-radius: 20px;
-}
 
 .Card-Projects {
 	padding-left: 1vw;
@@ -187,8 +134,8 @@
 	font-size: 3.5rem;
 	text-align: left;
 	background-color: #f4fcc1;
-	width: 40vw;
-	height: 50vh;
+	width: min(40vw, 800px);
+	height: min(50vh, 500px);
 	border-radius: 20px;
 	margin-left: 1.4vw;
 	overflow: hidden;
@@ -210,8 +157,8 @@
 	font-size: 3.5rem;
 	text-align: left;
 	background-color: #f3d0f6;
-	width: 30vw;
-	height: 50vh;
+	width: min(30vw, 600px);
+	height: min(50vh, 500px);
 	border-radius: 20px;
 	margin-left: 1.4vw;
 	transition: transform 330ms ease-in-out;
@@ -236,7 +183,7 @@
 }
 
 .Card-Heading {
-	margin-top: 4rem;
+	margin-top: 8rem;
 	font-family: "Poppins";
 	font-weight: 600;
 	color: #242424;
@@ -253,9 +200,24 @@
 	margin-right: 50px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1500px) and (min-width: 1200px) {
+	.Card-Heading {
+		margin-top: 6rem;
+		font-family: "Poppins";
+		font-weight: 600;
+		color: #242424;
+		font-size: 3.5rem;
+		transition: all 330ms ease-in-out;
+	}
+}
+
+@media screen and (max-width: 1200px) {
 	/* CSS rules for small screens */
 	.arrow {
+		visibility: hidden;
+	}
+
+	.arrow-2 {
 		visibility: hidden;
 	}
 	.LPage {
@@ -303,7 +265,7 @@
 		font-size: 1.82rem;
 		text-align: left;
 		background-color: #bae5e4;
-		width: min(40svh, 150px);
+		width: min(80vw, 150px);
 		height: clamp (10vh 50%, 13vh);
 		border-radius: 10px;
 		margin-top: 2vh;
@@ -327,7 +289,7 @@
 		font-size: 1.82rem;
 		text-align: left;
 		background-color: #f3d0f6;
-		width: min(40svh, 265px);
+		width: min(80svw, 265px);
 		height: clamp (10vh 50%, 13vh);
 		border-radius: 10px;
 		margin-left: 1.4vw;
