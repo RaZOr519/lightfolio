@@ -53,6 +53,7 @@
 .Head-text:hover {
 	width: 25vw;
 	color: #5c5c5c;
+
 	transition: all ease 0.5s;
 }
 
@@ -267,7 +268,7 @@
 		font-size: 1.82rem;
 		text-align: left;
 		background-color: #bae5e4;
-		width: min(80vw, 150px);
+		width: min(140px, 150px);
 		height: clamp (10vh 50%, 13vh);
 		border-radius: 10px;
 		margin-top: 2vh;
@@ -291,7 +292,7 @@
 		font-size: 1.82rem;
 		text-align: left;
 		background-color: #f3d0f6;
-		width: min(80svw, 265px);
+		width: min(265px, 260px);
 		height: clamp (10vh 50%, 13vh);
 		border-radius: 10px;
 		margin-left: 1.4vw;
@@ -314,7 +315,7 @@
 		font-size: 0.6rem;
 		text-align: left;
 		background-color: #fcdac1;
-		width: min(38svh, 185px);
+		width: min(182px, 185px);
 		height: max(1.8svh, 15px);
 		border-radius: 10px;
 		margin-left: 1.4vw;
