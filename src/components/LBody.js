@@ -34,7 +34,7 @@ function Navbar() {
 				<a href="/portfolio">
 					<div className="Card-Heading-3">
 						Wanna <br /> see my <br />
-						latest <br /> projects...
+						latest <br /> projects..?
 					</div>
 					<div className="Card-Text-3">Portfolio</div>
 					<img className="arrow-2" src={arrow} border="0" />
