@@ -13,7 +13,6 @@ function Services() {
 						<br />
 						<br />
 					</div>
-					<div className="Card-Text-3">3D Animations</div>
 				</div>
 
 				<div class="Card-Samples-2">
@@ -24,7 +23,6 @@ function Services() {
 						<br />
 						<br />
 					</div>
-					<div className="Card-Text-3">2D Animations</div>
 				</div>
 
 				<div class="Card-Samples-4">

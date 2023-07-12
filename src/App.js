@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import "./components/Navbar.js";
 import Navbar from "./components/Navbar.js";
@@ -11,6 +11,10 @@ import Contact from "./pages/Contact";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
+	useEffect(() => {
+		document.title = "Sachin Dewthuru";
+	}, []);
+
 	return (
 		<div className="App">
 			<Router>
