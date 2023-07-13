@@ -28,7 +28,13 @@ function Navbar() {
 			<div class="Card-Projects">
 				<div className="Card-Heading-2">300+</div>
 				<div className="Card-Text-2">Completed Projects</div>
-				<img className="sachin" src={sachin} border="0" />
+				<img
+					className="sachin"
+					src={sachin}
+					alt="Sachin Dewthuru"
+					width={550}
+					border="0"
+				/>
 			</div>
 			<div class="Card-Samples">
 				<a href="/portfolio">
