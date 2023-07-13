@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/LBody.css";
-import sachin from "./images/sachin.png";
+import sachin from "./images/sachin.webp";
 import arrow from "./images/arrow-down.png";
 
 function Navbar() {
