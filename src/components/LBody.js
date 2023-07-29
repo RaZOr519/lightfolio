@@ -42,8 +42,6 @@ function Navbar() {
 						Wanna <br /> see my <br />
 						latest <br /> projects..?
 					</div>
-					<div className="Card-Text-3">Portfolio</div>
-					<img className="arrow-2" src={arrow} border="0" />
 				</a>
 			</div>
 		</div>
