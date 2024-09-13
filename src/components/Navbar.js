@@ -19,7 +19,7 @@ function Navbar() {
 				<button onClick={() => navigateTo("/services")}>
 					Services
 				</button>
-				<button onClick={() => navigateTo("/about")}>About</button>
+				<button onClick={() => navigateTo("/about")}>Packages</button>
 				<button onClick={() => navigateTo("/contact")}>Contact</button>
 			</div>
 		</div>

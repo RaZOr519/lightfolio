@@ -7,7 +7,7 @@ function Navbar() {
 		<div class="Navbar">
 			<div class="Head-text">Hello, I'm</div>
 			<div class="Mid-text">Sachin Dewthuru</div>
-			<div class="Sub-text">CG Generalist & Front-End Developer</div>
+			<div class="Sub-text">CG Generalist & 3D Visual Artist</div>
 		</div>
 	);
 }

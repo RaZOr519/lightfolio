@@ -4,26 +4,62 @@ import "../Homepage.css";
 
 function About() {
 	return (
-		<div className="App-4">
-			<div className="Card-Container-4">
-				<div class="Card-Samples-5">
-					<div className="Card-Heading-3">
-						About Me <br />
+		<div className="App-3">
+			<div className="Card-Container-2">
+				<div class="Card-Samples-8">
+					<div className="Card-Heading-4">
+						3D Motion
+						<br /> Social Content <br />
+						<h1>
+							Best for Social Content, Campaigns, Ads, Product
+							Showcases
+							<br />
+							<div className="Card-Text-5">
+								15 seconds visual HD Resolution <br />
+								2 iterations($20 per additional) <br />
+								7 days project duration <br />
+								Sound design included
+							</div>
+						</h1>
+						<div className="Card-Text-6">300 USD</div>
 					</div>
-					<div className="Card-Text-4">
-						Hello there! I'm a multi-talented individual with a
-						passion for all things technology and design. I
-						specialize in 3D modeling, animation, and frontend
-						development, which allows me to bring a unique
-						perspective to any digital project.
-						<br />
-						<br /> I am driven by a desire to create engaging,
-						visually stunning digital experiences that make a
-						lasting impression on users. I am excited to continue my
-						journey in this ever-evolving field and am always open
-						to new opportunities and collaborations.
+				</div>
+
+				<div class="Card-Samples-8">
+					<div className="Card-Heading-4">
+						3D Motion <br />
+						Brand Visuals <br />
+						<h1>
+							Best for, Campaigns, Short content, Ads, Product
+							showcases
+							<br />
+							<div className="Card-Text-5">
+								30 seconds visual HD Resolution <br />
+								2 iterations($20 per additional) <br />
+								10-12 days project duration <br />
+								Sound design included
+							</div>
+						</h1>
+						<div className="Card-Text-6">500 USD</div>
 					</div>
-					<br />
+				</div>
+
+				<div class="Card-Samples-8">
+					<div className="Card-Heading-4">
+						Visual Effects <br />
+						Compositing
+						<h1>
+							Best for Social Content, Campaigns, Ads, TVC
+							<br />
+							<div className="Card-Text-5">
+								5 seconds <br />
+								2 iterations($20 per additional) <br />
+								5 days project duration <br />
+								HD Resolution
+							</div>
+						</h1>
+						<div className="Card-Text-6">100+ USD</div>
+					</div>
 				</div>
 			</div>
 		</div>

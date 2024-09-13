@@ -87,7 +87,7 @@
 	font-size: clamp(0.5rem, 1.7vw, 2rem);
 	text-align: left;
 	background-color: #f4fcc1;
-	width: 32.6vw;
+	width: 28vw;
 	height: clamp(4svh, 50%, 50px);
 	border-radius: 10px;
 	margin-left: 1.4vw;
@@ -186,11 +186,11 @@
 }
 
 .Card-Heading {
-	margin-top: 8rem;
+	margin-top: 5rem;
 	font-family: "Poppins", sans-serif;
 	font-weight: 600;
 	color: #242424;
-	font-size: 3.5rem;
+	font-size: 4.5rem;
 	transition: all 330ms ease-in-out;
 }
 

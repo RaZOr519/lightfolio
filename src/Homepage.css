@@ -108,6 +108,32 @@ h1 {
 	transition: transform 330ms ease-in-out;
 }
 
+.Card-Heading-4 {
+	margin-top: -3rem;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	color: #242424;
+	font-size: clamp(0.5rem, 4vw, 3.5rem);
+	line-height: 1.2;
+	transition: transform 330ms ease-in-out;
+}
+
+.Card-Text-5 {
+	margin-top: 0.5rem;
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	color: #242424;
+	font-size: 1.2rem;
+}
+
+.Card-Text-6 {
+	margin-top: 4rem;
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	color: #242424;
+	font-size: 3rem;
+}
+
 .Card-Text-3 {
 	margin-top: 11rem;
 	font-family: "Poppins", sans-serif;
@@ -182,6 +208,54 @@ h1 {
 }
 
 .Card-Samples-1:hover {
+	transform: scale(1.025);
+	transition: transform 330ms ease-in-out;
+	.Card-Heading-3 {
+		transform: scale(1.025);
+		opacity: 0.75;
+		transition: transform 330ms ease-in-out;
+	}
+	.arrow-2 {
+		filter: invert(0.2);
+		transform: rotate(240deg);
+	}
+}
+
+.Card-Samples-8 {
+	padding-left: 1vw;
+	color: #242424;
+	font-size: 3.5rem;
+	text-align: left;
+	background-color: #dfdfdf;
+	width: min(30vw, 500px);
+	height: 385px;
+	border-radius: 20px;
+	padding: 4vw;
+	padding-left: 3vw;
+	padding-right: 3vw;
+	margin: 1vw;
+	transition: transform 330ms ease-in-out;
+
+	/* Add moving gradient background */
+	background: linear-gradient(270deg, #b9b9b9, #b9b9b9, #dadada);
+	background-size: 600% 600%;
+	animation: gradientMove 6s ease infinite;
+}
+
+/* Define the animation for the moving gradient */
+@keyframes gradientMove {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.Card-Samples-8:hover {
 	transform: scale(1.025);
 	transition: transform 330ms ease-in-out;
 	.Card-Heading-3 {

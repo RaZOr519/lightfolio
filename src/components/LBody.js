@@ -26,7 +26,7 @@ function Navbar() {
 				</div>*/}
 			</div>
 			<div class="Card-Projects">
-				<div className="Card-Heading-2">300+</div>
+				<div className="Card-Heading-2">500+</div>
 				<div className="Card-Text-2">Completed Projects</div>
 				<img
 					className="sachin"

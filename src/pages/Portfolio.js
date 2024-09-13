@@ -26,14 +26,20 @@ function Portfolio() {
 				</div>
 
 				<div class="Card-Samples-3">
-					<a href="https://github.com/RaZOr519" target="_blank">
+					<a
+						href="https://www.youtube.com/@SachinDewthuru"
+						target="_blank"
+					>
 						<div className="Card-Heading-3">
-							Portfolio <br /> at GitHub
+							3D Portfolio <br /> at Youtube
 							<br />
 						</div>
 					</a>
-					<div className="Card-Text-3">GitHub</div>
-					<a href="https://github.com/RaZOr519" target="_blank">
+					<div className="Card-Text-3">Youtube</div>
+					<a
+						href="https://www.youtube.com/@SachinDewthuru"
+						target="_blank"
+					>
 						<img className="arrow-5" src={arrow} border="0" />
 					</a>
 				</div>

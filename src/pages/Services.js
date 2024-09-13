@@ -27,7 +27,9 @@ function Services() {
 
 				<div class="Card-Samples-4">
 					<div className="Card-Heading-3">
-						Front-End Developing <br />
+						Visual Effects <br />
+						Compositing
+						<br />
 						<br />
 						<br />
 					</div>
